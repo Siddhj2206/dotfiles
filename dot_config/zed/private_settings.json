@@ -15,7 +15,7 @@
     "folds": true
   },
   "project_panel": {
-    "hide_hidden": true
+    "hide_hidden": false
   },
   "vim_mode": false,
   "features": {
@@ -84,7 +84,7 @@
     "default_profile": "ask",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-sonnet-4.5"
+      "model": "gemini-3-pro-preview"
     }
   },
   "icon_theme": "Material Icon Theme",
