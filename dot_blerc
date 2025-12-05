@@ -1,0 +1,30 @@
+# ~/.blerc
+# zsh-like auto-complete settings
+function my/complete-load-hook {
+  bleopt complete_auto_complete=1
+  bleopt complete_auto_delay=1
+  bleopt complete_auto_history=1
+  bleopt complete_menu_style=align-nowrap
+  bleopt complete_menu_filter=1
+  bleopt complete_menu_complete=1
+  bleopt complete_menu_color=on
+  bleopt complete_menu_color_match=on
+  bleopt complete_ambiguous=1
+}
+blehook/eval-after-load complete my/complete-load-hook
+# Auto-complete suggestion color (gray)
+ble-face auto_complete='fg=gray'
+# Disable red/green command highlighting (Option 2)
+ble-face command_file=none
+ble-face command_function=none
+ble-face command_builtin=none
+ble-face command_builtin_dot=none
+ble-face command_alias=none
+ble-face command_keyword=none
+ble-face command_directory=none
+ble-face syntax_error=none
+ble-face syntax_command=none
+# OR: Disable all syntax highlighting entirely (Option 1)
+# bleopt highlight_syntax=
+# bleopt highlight_filename=
+# bleopt highlight_variable=
