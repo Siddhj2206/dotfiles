@@ -136,3 +136,6 @@ export PATH="$PATH:/home/sid/.lmstudio/bin"
 
 # Jetbrains Toolbox
 export PATH="$PATH:/home/sid/.local/jetbrains-toolbox/bin"
+
+# opencode
+export PATH=/home/sid/.opencode/bin:$PATH

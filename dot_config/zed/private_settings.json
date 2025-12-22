@@ -8,18 +8,18 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "minimap": {
-    "show": "never"
+    "show": "never",
   },
   "gutter": {
     "runnables": true,
-    "folds": true
+    "folds": true,
   },
   "project_panel": {
-    "hide_hidden": false
+    "hide_hidden": false,
   },
   "vim_mode": false,
   "features": {
-    "edit_prediction_provider": "copilot"
+    "edit_prediction_provider": "copilot",
   },
   "language_models": {
     "openai_compatible": {
@@ -36,56 +36,56 @@
               "tools": true,
               "images": false,
               "parallel_tool_calls": false,
-              "prompt_cache_key": false
-            }
-          }
-        ]
-      }
+              "prompt_cache_key": false,
+            },
+          },
+        ],
+      },
     },
     "copilot_chat": {
       "api_url": "https://api.githubcopilot.com/chat/completions",
       "auth_url": "https://api.github.com/copilot_internal/v2/token",
-      "models_url": "https://api.githubcopilot.com/models"
-    }
+      "models_url": "https://api.githubcopilot.com/models",
+    },
   },
   "collaboration_panel": {
-    "dock": "right"
+    "dock": "right",
   },
   "debugger": {
-    "dock": "left"
+    "dock": "left",
   },
   "terminal": {
-    "line_height": "standard"
+    "line_height": "standard",
   },
   "show_edit_predictions": false,
   "languages": {
     "Astro": {
-      "show_edit_predictions": true
+      "show_edit_predictions": true,
     },
     "Rust": {
-      "show_edit_predictions": false
+      "show_edit_predictions": false,
     },
     "Python": {
-      "language_servers": ["basedpyright", "ruff"]
+      "language_servers": ["ty", "ruff"],
     },
     "C++": {
-      "format_on_save": "on"
-    }
+      "format_on_save": "on",
+    },
   },
   "edit_predictions": {
     "mode": "subtle",
     "copilot": {
       "proxy": null,
-      "proxy_no_verify": null
+      "proxy_no_verify": null,
     },
-    "enabled_in_text_threads": false
+    "enabled_in_text_threads": false,
   },
   "agent": {
     "default_profile": "ask",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "gemini-3-pro-preview"
-    }
+      "model": "gemini-3-pro-preview",
+    },
   },
   "icon_theme": "Material Icon Theme",
   "ui_font_size": 16,
@@ -95,7 +95,7 @@
   "theme": {
     "mode": "system",
     "light": "Ayu Light",
-    "dark": "Vesper Black"
+    "dark": "Vesper Black",
   },
-  "soft_wrap": "editor_width"
+  "soft_wrap": "editor_width",
 }
