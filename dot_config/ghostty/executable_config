@@ -4,17 +4,17 @@
 ## General
 clipboard-read = allow
 clipboard-write = allow
-shell-integration = zsh
+shell-integration = bash
 
 ## Appearance
 bold-is-bright = true
 window-theme = ghostty
 adw-toolbar-style = flat
-theme = Vesper
-# ayu, vesper, Adventure, Argonaut
+theme = Ayu
+# ayu, Vesper, Adventure, Argonaut
 window-colorspace = display-p3
 
 # Keybinds
 keybind = f11=toggle_fullscreen
-keybind = ctrl+t=new_tab
+keybind = ctrl+shift+t=new_tab
 keybind = ctrl+w=close_tab
