@@ -10,8 +10,8 @@ shell-integration = bash
 bold-is-bright = true
 window-theme = ghostty
 adw-toolbar-style = flat
-theme = Ayu
-# ayu, Vesper, Adventure, Argonaut
+theme = Vesper
+# Ayu, Vesper, Adventure, Argonaut
 window-colorspace = display-p3
 
 # Keybinds

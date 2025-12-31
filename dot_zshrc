@@ -114,7 +114,6 @@ alias exp="cd ~/Documents/Experiments/"
 eval "$(starship init zsh)"
 
 # atuin
-# key: load ostrich face gain paper claim upon outer van dumb minor record wait glad someone multiply prepare ancient into still noodle evil fluid cluster
 . "$HOME/.atuin/bin/env"
 eval "$(atuin init zsh)"
 
